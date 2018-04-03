@@ -26,7 +26,7 @@
     "tap": "0.7.1"
   },
   "scripts": {
-    "install": "node-gyp rebuild || node suppress-error.js",
+    "install": "node-gyp rebuild",
     "test": "tap test/*.test.js"
   },
   "main": "./dtrace-provider.js"
